@@ -27,4 +27,4 @@ The network protocol guarantees that a packet is complete after submission by us
 It seems that the main difference between TCP and IP is that IP is the way that a computer is able to determine the best path to transfer data with, and TCP is the guaranteed way that it all gets delivered. The IP is used by the TCP to determine where to go.
 
 5. 
-I think the simplest answer for this is just that with a graphics card you get more power. The graphics card is able to direct 100% of it's processing at handling the 3d performance, whereas with just a CPU it can only allocate so much of itself to graphic computing. It's worth noting that some CPU's don't even have onchip graphics, and they assume that you'll have discrete GPU.
+I think the simplest answer for this is just that with a graphics card you get more power. The graphics card is able to direct 100% of it's processing at handling the 3d performance, whereas with just a CPU it can only allocate so much of itself to graphic computing. It's worth noting that some CPU's don't even have onchip graphics, and they assume that you'll have a discrete GPU.
