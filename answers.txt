@@ -1,4 +1,10 @@
-1.
+1. I believe the steps are:
+  Convert the 100mb to kb = 100000kb
+  divide the data by the block
+  100000kb / 4kb - 25000
+  find the average time it will take to read 25000kb
+  25000 * (9 + 4.16ms) = 329000ms => 329 seconds for desktop
+  25000 * (9 + 4.16ms) = 25013.16ms => 25 seconds for desktop
 
 2. 
 A TCP/IP packet is considered the basic unit of of network transmission, and they contain two 'parts' the Header and the Data. The header includes many pieces of data such as:
