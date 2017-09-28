@@ -1,6 +1,7 @@
 1.
 
-2. A TCP/IP packet is considered the basic unit of of network transmission, and they contain two 'parts' the Header and the Data. The header includes many pieces of data such as:
+2. 
+A TCP/IP packet is considered the basic unit of of network transmission, and they contain two 'parts' the Header and the Data. The header includes many pieces of data such as:
 
   Which protocol is being used (IPv4 or IPv6)
   Length of the packet
@@ -9,10 +10,15 @@
   A checksum (used in calculating corrections)
   The 'Time to Live' (TTL), or how many times the packet can be passed before timing out
 
-The minimum size for a TCP/IP header is 20 bytes and the maximum is 60 bytes.
+The minimum size for a TCP/IP header is 20 bytes and the maximum is 60 bytes. The data that then follows the header is considered to be the 'Payload data' which is the actual data of the packet and not including any meta-data.
 
-3.
+3. 
+The network protocol guarantees that a packet is complete after submission by using a technique referred to as:
 
-4.
+  Postive acknowledgement with re-transmission: This technique as the receiver respond with an message acknowledging the data has been received as it receives the data. If the sender doesn't receive an acknowlegdement before their timer expires they resend the packet.
 
-5.
+4. 
+It seems that the main difference between TCP and IP is that IP is the way that a computer is able to determine the best path to transfer data with, and TCP is the guaranteed way that it all gets delivered. The IP is used by the TCP to determine where to go.
+
+5. 
+I think the simplest answer for this is just that with a graphics card you get more power. The graphics card is able to direct 100% of it's processing at handling the 3d performance, whereas with just a CPU it can only allocate so much of itself to graphic computing. It's worth noting that some CPU's don't even have onchip graphics, and they assume that you'll have discrete GPU.
