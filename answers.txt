@@ -1,0 +1,18 @@
+1.
+
+2. A TCP/IP packet is considered the basic unit of of network transmission, and they contain two 'parts' the Header and the Data. The header includes many pieces of data such as:
+
+  Which protocol is being used (IPv4 or IPv6)
+  Length of the packet
+  How many packets are being used to send the total amount of data
+  The source and the destination of the packet
+  A checksum (used in calculating corrections)
+  The 'Time to Live' (TTL), or how many times the packet can be passed before timing out
+
+The minimum size for a TCP/IP header is 20 bytes and the maximum is 60 bytes.
+
+3.
+
+4.
+
+5.
